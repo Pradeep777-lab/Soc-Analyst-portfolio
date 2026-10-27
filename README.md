@@ -1,26 +1,16 @@
-# Soc-Anasoc-analyst-portfolio/
-│
+# Soc-Analyst-portfolio/
+
+SOC-002-PS-Eclipse-Splunk-Investigation/
 ├── README.md
-│
-├── 01-phishing-email-investigation/
-│   │
-│   ├── README.md
-│   │
-│   ├── incident-report.md
-│   │
-│   ├── evidence/
-│   │   ├── 01-alert.png
-│   │   ├── 02-email-header.png
-│   │   ├── 03-email-body.png
-│   │   ├── 04-url-analysis.png
-│   │   ├── 05-ioc-analysis.png
-│   │   └── 06-final-verdict.png
-│   │
-│   ├── iocs/
-│   │   └── ioc.csv
-│   │
-│   └── timeline/
-│       └── timeline.md
-│
-└── resources/
-    └── investigation-checklist.mdlyst-portfolio
+├── queries/
+│   └── splunk-investigation-queries.md
+├── evidence/
+│   ├── 01-search-scope.png
+│   ├── 02-process-analysis.png
+│   ├── 03-download-investigation.png
+│   ├── 04-execution-analysis.png
+│   └── 05-ransomware-artifacts.png
+└── reports/
+    ├── incident-report.md
+    ├── incident-timeline.md
+    └── ioc-register.md
